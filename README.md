@@ -218,7 +218,7 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('mayank.raikwar822@gmail.com', 'cupcake@love0407')
+    server.login('yourmail@gmail.com', '1234567')
     server.sendmail('mayank.raikwar822@gmail.com', to, content)
     server.close()
 
